@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/blog/second/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Second = () => {\n  return (\n    <div>Second</div>\n  )\n}\n\nexport default Second"],"names":[],"mappings":";;;;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

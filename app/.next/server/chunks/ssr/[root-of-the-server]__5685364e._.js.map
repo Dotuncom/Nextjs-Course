@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/product/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst product = () => {\n  return (\n    <div>product</div>\n  )\n}\n\nexport default product"],"names":[],"mappings":";;;;;;AAEA,MAAM,UAAU;IACd,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

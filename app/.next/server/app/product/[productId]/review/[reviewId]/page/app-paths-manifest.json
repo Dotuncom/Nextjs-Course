@@ -1,0 +1,3 @@
+{
+  "/product/[productId]/review/[reviewId]/page": "app/product/[productId]/review/[reviewId]/page.js"
+}

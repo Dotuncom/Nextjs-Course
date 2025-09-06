@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/profile/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Profile = () => {\n  return (\n    <div>Profile</div>\n  )\n}\n\nexport default Profile"],"names":[],"mappings":";;;;;;AAEA,MAAM,UAAU;IACd,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}
