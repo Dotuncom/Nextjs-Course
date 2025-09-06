@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/product/%5BproductId%5D/page.tsx"],"sourcesContent":["import { promises } from 'dns'\nimport React from 'react'\n\ntype paramProps ={\n  params: Promise<{productId:string}>\n}\nconst  productDetails = async ({params}:paramProps) => {\n    const productId = (await params).productId\n  return (\n    <div>\n            this is the product Detail of {productId}\n    </div>\n  )\n}\n\nexport default productDetails"],"names":[],"mappings":";;;;;;AAMA,MAAO,iBAAiB,OAAO,EAAC,MAAM,EAAY;IAC9C,MAAM,YAAY,CAAC,MAAM,MAAM,EAAE,SAAS;IAC5C,qBACE,8OAAC;;YAAI;YACkC;;;;;;;AAG3C;uCAEe","debugId":null}}]
-}

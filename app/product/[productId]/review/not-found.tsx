@@ -1,7 +1,7 @@
 'use client'
 import { usePathname } from 'next/navigation'
 
-const NotFound = () => {
+const NotFound = ()=> {
   const pathname = usePathname()
     const reviewId = pathname.split('/')[2]
     const productId = pathname.split('/')[4]

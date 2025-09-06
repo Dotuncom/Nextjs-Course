@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/product/%5BproductId%5D/review/%5BreviewId%5D/page.tsx"],"sourcesContent":["import React from 'react'\nimport { notFound } from 'next/navigation'\nimport { Parisienne } from 'next/font/google'\n\nconst productReview = async({params}:\n    {params:Promise<{productId:string, reviewId:string}>}) => {\n        const {productId, reviewId} = await params\n        if(parseInt(reviewId)>1000){\n             return notFound()\n        }\n  return (\n    <div>\n   <h2>Review {reviewId} for product{productId}</h2>\n\n    </div>\n  )\n}\n\nexport default productReview"],"names":[],"mappings":";;;;;AACA;AAAA;;;AAGA,MAAM,gBAAgB,OAAM,EAAC,MAAM,EACsB;IACjD,MAAM,EAAC,SAAS,EAAE,QAAQ,EAAC,GAAG,MAAM;IACpC,IAAG,SAAS,YAAU,MAAK;QACtB,OAAO,IAAA,iMAAQ;IACpB;IACN,qBACE,8OAAC;kBACF,cAAA,8OAAC;;gBAAG;gBAAQ;gBAAS;gBAAa;;;;;;;;;;;;AAIrC;uCAEe","debugId":null}}]
-}

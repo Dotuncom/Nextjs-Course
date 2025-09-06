@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/product/%5BproductId%5D/review/%5BreviewId%5D/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst productReview = async({params}:\n    {params:Promise<{productId:string, reviewId:string}>}) => {\n        const {productId, reviewId} = await params\n  return (\n    <div>\n   <h2>Review {reviewId} for product{productId}</h2>\n    </div>\n  )\n}\n\nexport default productReview"],"names":[],"mappings":";;;;;;AAEA,MAAM,gBAAgB,OAAM,EAAC,MAAM,EACsB;IACjD,MAAM,EAAC,SAAS,EAAE,QAAQ,EAAC,GAAG,MAAM;IAC1C,qBACE,8OAAC;kBACF,cAAA,8OAAC;;gBAAG;gBAAQ;gBAAS;gBAAa;;;;;;;;;;;;AAGrC;uCAEe","debugId":null}}]
-}

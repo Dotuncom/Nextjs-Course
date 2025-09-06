@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/about/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst About = () => {\n  return (\n    <div>About Page</div>\n  )\n}\n\nexport default About"],"names":[],"mappings":";;;;;;AAEA,MAAM,QAAQ;IACZ,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
-}

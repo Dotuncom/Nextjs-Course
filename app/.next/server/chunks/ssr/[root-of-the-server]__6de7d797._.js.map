@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///home/dotun/intro-to-next-app/app/docs/%5B...slug%5D/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Docs = async({params}:\n    {params:Promise<{slug:string[]}>}\n) => {\n    const {slug} = await params\n    if(slug?.length === 2){\n        return (\n             <h1> View docs for feature  {slug[0]} and concept {slug[1]} </h1>\n        ) \n    }else if(slug.length ===1){\n       return <h1> Viewing Docs for feature {slug[0]}  </h1>\n    }else {\n        return <h1>Docs Homepage</h1>\n    }\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default Docs"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO,OAAM,EAAC,MAAM,EACW;IAEjC,MAAM,EAAC,IAAI,EAAC,GAAG,MAAM;IACrB,IAAG,MAAM,WAAW,GAAE;QAClB,qBACK,8OAAC;;gBAAG;gBAAyB,IAAI,CAAC,EAAE;gBAAC;gBAAc,IAAI,CAAC,EAAE;gBAAC;;;;;;;IAEpE,OAAM,IAAG,KAAK,MAAM,KAAI,GAAE;QACvB,qBAAO,8OAAC;;gBAAG;gBAA2B,IAAI,CAAC,EAAE;gBAAC;;;;;;;IACjD,OAAM;QACF,qBAAO,8OAAC;sBAAG;;;;;;IACf;;;AAMJ;uCAEe","debugId":null}}]
-}
